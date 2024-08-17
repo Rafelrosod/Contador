@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,#042940,#005C53);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contador{
+    display: flex;
+    justify-content: center;
+    color: #DBF227;
+    font-size: 40px;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #9FC131;
+}
+button:hover {
+    background-color: #DBF227;
+}
